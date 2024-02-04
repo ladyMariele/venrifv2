@@ -1,0 +1,104 @@
+* {
+    font-family: "Lexend Deca";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: hsl(258, 9%, 37%);
+    scroll-behavior: smooth;
+  }index
+  
+  body {
+    background-color: hsl(237, 26%, 16%) !important;
+  }
+  body h1 {
+    color: hsl(342, 57%, 40%);
+  }
+  
+  #venrif {
+    background-image: linear-gradient(hsl(237, 26%, 31%), hsl(237, 26%, 16%));
+  }
+  #venrif nav {
+    background-image: linear-gradient(hsl(0, 0%, 13%), hsl(237, 26%, 31%)) !important;
+    margin-bottom: 5em;
+  }
+  #venrif nav .nav-link:hover {
+    color: hsl(342, 57%, 40%);
+  }
+  #venrif nav .dropdown-item:hover {
+    color: hsl(0, 0%, 13%) !important;
+  }
+  #venrif nav .dropdown-item:active {
+    background-color: hsl(342, 57%, 40%);
+  }
+  #venrif img {
+    width: 50vmin;
+    height: auto;
+    padding: 1em 0 0.5em 0;
+    margin: 0 3em 0 0;
+  }
+  #venrif .trailer-container {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 75%;
+    padding-top: 56.25%; /* Aspect ratio: 16:9 */
+    filter: drop-shadow(0px 0px 20px hsla(342, 57%, 40%, 0.199));
+  }
+  #venrif .trailer-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    border: 0;
+  }
+  
+  #gameplay {
+    color: hsl(258, 9%, 37%);
+    background-image: linear-gradient(hsl(237, 26%, 16%), hsl(237, 26%, 16%));
+  }
+  #gameplay article {
+    color: hsla(341, 15%, 33%, 0.993);
+  }
+  
+  #the-project {
+    background-image: linear-gradient(hsl(237, 26%, 16%), hsl(0, 0%, 13%));
+    padding: 5em 2em 8em 2em !important;
+  }
+  
+  #direction {
+    background-image: linear-gradient(hsl(0, 0%, 13%), hsl(237, 26%, 16%));
+    padding: 5em 2em 8em 2em !important;
+  }
+  
+  #about-us {
+    background-image: url(/assets/images/background.jpg);
+  }
+  
+  #footer {
+    background-image: linear-gradient(hsl(240, 50%, 1%), hsl(237, 26%, 16%));
+  }
+  #footer img {
+    width: 150px;
+  }
+  
+  @media screen and (min-width: 1001px) {
+    nav {
+      padding: 0 10em !important;
+    }
+    nav .nav-item {
+      margin: 0 1em;
+    }
+    .div-container {
+      width: 810px;
+      margin: auto;
+    }
+    .div-container p {
+      font-size: large;
+    }
+    article p {
+      width: 450px;
+      margin: auto;
+    }
+  }/*# sourceMappingURL=style.css.map */
